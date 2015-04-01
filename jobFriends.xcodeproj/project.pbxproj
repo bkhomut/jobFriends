@@ -14,6 +14,9 @@
 		A15005A31AC9FC4D0017CCE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15005A21AC9FC4D0017CCE2 /* Images.xcassets */; };
 		A15005A61AC9FC4D0017CCE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15005A41AC9FC4D0017CCE2 /* LaunchScreen.xib */; };
 		A15005B21AC9FC4D0017CCE2 /* jobFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15005B11AC9FC4D0017CCE2 /* jobFriendsTests.swift */; };
+		A15005BD1AC9FF8C0017CCE2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15005BC1AC9FF8C0017CCE2 /* CardView.swift */; };
+		A15005BF1ACA15030017CCE2 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15005BE1ACA15030017CCE2 /* SwipeView.swift */; };
+		A15005C21ACB29950017CCE2 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15005C11ACB29950017CCE2 /* CardsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		A15005AB1AC9FC4D0017CCE2 /* jobFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jobFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15005B01AC9FC4D0017CCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15005B11AC9FC4D0017CCE2 /* jobFriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobFriendsTests.swift; sourceTree = "<group>"; };
+		A15005BC1AC9FF8C0017CCE2 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A15005BE1ACA15030017CCE2 /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		A15005C11ACB29950017CCE2 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +85,9 @@
 		A15005951AC9FC4D0017CCE2 /* jobFriends */ = {
 			isa = PBXGroup;
 			children = (
+				A15005BB1AC9FCDF0017CCE2 /* Views */,
+				A15005C01ACB29620017CCE2 /* ViewControllers */,
 				A15005981AC9FC4D0017CCE2 /* AppDelegate.swift */,
-				A150059D1AC9FC4D0017CCE2 /* ViewController.swift */,
 				A150059F1AC9FC4D0017CCE2 /* Main.storyboard */,
 				A15005A21AC9FC4D0017CCE2 /* Images.xcassets */,
 				A15005A41AC9FC4D0017CCE2 /* LaunchScreen.xib */,
@@ -113,6 +120,24 @@
 				A15005B01AC9FC4D0017CCE2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A15005BB1AC9FCDF0017CCE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A15005BC1AC9FF8C0017CCE2 /* CardView.swift */,
+				A15005BE1ACA15030017CCE2 /* SwipeView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A15005C01ACB29620017CCE2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A150059D1AC9FC4D0017CCE2 /* ViewController.swift */,
+				A15005C11ACB29950017CCE2 /* CardsViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +242,9 @@
 			files = (
 				A150059E1AC9FC4D0017CCE2 /* ViewController.swift in Sources */,
 				A15005991AC9FC4D0017CCE2 /* AppDelegate.swift in Sources */,
+				A15005C21ACB29950017CCE2 /* CardsViewController.swift in Sources */,
+				A15005BD1AC9FF8C0017CCE2 /* CardView.swift in Sources */,
+				A15005BF1ACA15030017CCE2 /* SwipeView.swift in Sources */,
 				A150059C1AC9FC4D0017CCE2 /* jobFriends.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
