@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5748E062-F63F-4288-BFAC-484E717ABAEE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>jobFriends</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CF2CF10761EBC67326CFEE0BEE1746AF00DBAA4B</key>
+		<string>https://github.com/bkhomut/jobFriends.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>jobFriends.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CF2CF10761EBC67326CFEE0BEE1746AF00DBAA4B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bkhomut/jobFriends.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF2CF10761EBC67326CFEE0BEE1746AF00DBAA4B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF2CF10761EBC67326CFEE0BEE1746AF00DBAA4B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jobFriends</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -6,8 +6,7 @@
 //  Copyright (c) 2015 Boris. All rights reserved.
 //
 
-#ifndef jobFriends_Bridging_Header_h
-#define jobFriends_Bridging_Header_h
 
-
-#endif
+# import <Parse/Parse.h>
+#import <ParseFacebookUtils/PFFacebookUtils.h>
+#import "FacebookSDK/FacebookSDK.h"

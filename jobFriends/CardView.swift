@@ -14,6 +14,22 @@ class CardView: UIView {
     private let imageView: UIImageView = UIImageView()
     private let nameLabel: UILabel = UILabel()
     
+    var name: String? {
+        didSet {
+            if let name = name {
+                nameLabel.text = name
+            }
+        }
+    }
+    
+    var image: UIImage? {
+        didSet {
+            if let image = image {
+                imageView.image = image
+            }
+        }
+    }
+    
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initialize()
@@ -43,6 +59,10 @@ class CardView: UIView {
         layer.borderColor = UIColor.lightGrayColor().CGColor
         layer.cornerRadius = 5
         layer.masksToBounds = true
+        
+        //Call the helper function
+        setConstraints()
+        
     }
     
     private func setConstraints() {
@@ -59,9 +79,6 @@ class CardView: UIView {
         addConstraint(NSLayoutConstraint(item: nameLabel, attribute: NSLayoutAttribute.Leading, relatedBy: NSLayoutRelation.Equal, toItem: self, attribute: NSLayoutAttribute.Leading, multiplier: 1.0, constant: 10))
         addConstraint(NSLayoutConstraint(item: nameLabel, attribute: NSLayoutAttribute.Trailing, relatedBy: NSLayoutRelation.Equal, toItem: self, attribute: NSLayoutAttribute.Trailing, multiplier: 1.0, constant: -10))
         addConstraint(NSLayoutConstraint(item: nameLabel, attribute: NSLayoutAttribute.Bottom, relatedBy: NSLayoutRelation.Equal, toItem: self, attribute: NSLayoutAttribute.Bottom, multiplier: 1.0, constant: 0))
-        
-        //Call the helper function
-        setConstraints()
         
     }
     

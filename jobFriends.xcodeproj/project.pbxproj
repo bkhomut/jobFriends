@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A104EAB81ACF1FAE006BB05F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EAB61ACF1FAE006BB05F /* Parse.framework */; };
+		A104EAB91ACF1FAE006BB05F /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EAB71ACF1FAE006BB05F /* ParseFacebookUtils.framework */; };
+		A104EABB1ACF1FFE006BB05F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EABA1ACF1FFE006BB05F /* AudioToolbox.framework */; };
+		A104EABD1ACF2017006BB05F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EABC1ACF2017006BB05F /* CFNetwork.framework */; };
+		A104EABF1ACF201E006BB05F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EABE1ACF201E006BB05F /* CoreGraphics.framework */; };
+		A104EAC11ACF2024006BB05F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EAC01ACF2024006BB05F /* CoreLocation.framework */; };
+		A104EAC31ACF202E006BB05F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EAC21ACF202E006BB05F /* MobileCoreServices.framework */; };
+		A104EAC51ACF2036006BB05F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EAC41ACF2036006BB05F /* QuartzCore.framework */; };
+		A104EAC71ACF203F006BB05F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EAC61ACF203F006BB05F /* Security.framework */; };
+		A104EAC91ACF2045006BB05F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EAC81ACF2045006BB05F /* StoreKit.framework */; };
+		A104EACB1ACF204D006BB05F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EACA1ACF204D006BB05F /* SystemConfiguration.framework */; };
+		A104EACD1ACF2070006BB05F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EACC1ACF2070006BB05F /* libz.dylib */; };
+		A104EACF1ACF209D006BB05F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A104EACE1ACF209D006BB05F /* libsqlite3.dylib */; };
+		A1461FA11ADA954700AE240C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1461FA01ADA954700AE240C /* LoginViewController.swift */; };
 		A15005991AC9FC4D0017CCE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15005981AC9FC4D0017CCE2 /* AppDelegate.swift */; };
 		A150059C1AC9FC4D0017CCE2 /* jobFriends.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A150059A1AC9FC4D0017CCE2 /* jobFriends.xcdatamodeld */; };
 		A150059E1AC9FC4D0017CCE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A150059D1AC9FC4D0017CCE2 /* ViewController.swift */; };
@@ -17,6 +31,12 @@
 		A15005BD1AC9FF8C0017CCE2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15005BC1AC9FF8C0017CCE2 /* CardView.swift */; };
 		A15005BF1ACA15030017CCE2 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15005BE1ACA15030017CCE2 /* SwipeView.swift */; };
 		A15005C21ACB29950017CCE2 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15005C11ACB29950017CCE2 /* CardsViewController.swift */; };
+		A1564AC91B0BCED1001E6E54 /* MatchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1564AC81B0BCED1001E6E54 /* MatchesTableViewController.swift */; };
+		A1564ACB1B0BCF55001E6E54 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1564ACA1B0BCF54001E6E54 /* UserCell.swift */; };
+		A1564ACD1B0CE0DB001E6E54 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1564ACC1B0CE0DB001E6E54 /* Match.swift */; };
+		A1837AD41AE98DAD007BA1BE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1837AD31AE98DAD007BA1BE /* ProfileViewController.swift */; };
+		A1BB5C551AE85C76004EC09A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BB5C541AE85C76004EC09A /* User.swift */; };
+		CB22DBE900CB223C7C701C1C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE528A998D12941BF743CB /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +50,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34FE528A998D12941BF743CB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3935931488B27DFB57697AC5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A104EAB61ACF1FAE006BB05F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A104EAB71ACF1FAE006BB05F /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		A104EABA1ACF1FFE006BB05F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A104EABC1ACF2017006BB05F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A104EABE1ACF201E006BB05F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A104EAC01ACF2024006BB05F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A104EAC21ACF202E006BB05F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A104EAC41ACF2036006BB05F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A104EAC61ACF203F006BB05F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A104EAC81ACF2045006BB05F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A104EACA1ACF204D006BB05F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A104EACC1ACF2070006BB05F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A104EACE1ACF209D006BB05F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A104EAD01ACF219C006BB05F /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		A1461FA01ADA954700AE240C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A15005931AC9FC4D0017CCE2 /* jobFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jobFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15005971AC9FC4D0017CCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15005981AC9FC4D0017CCE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +81,12 @@
 		A15005BC1AC9FF8C0017CCE2 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A15005BE1ACA15030017CCE2 /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
 		A15005C11ACB29950017CCE2 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		A1564AC81B0BCED1001E6E54 /* MatchesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesTableViewController.swift; sourceTree = "<group>"; };
+		A1564ACA1B0BCF54001E6E54 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		A1564ACC1B0CE0DB001E6E54 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		A1837AD31AE98DAD007BA1BE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
+		A1BB5C541AE85C76004EC09A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F48CD7FBB08EB0A80C3FE485 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +94,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A104EACF1ACF209D006BB05F /* libsqlite3.dylib in Frameworks */,
+				A104EACD1ACF2070006BB05F /* libz.dylib in Frameworks */,
+				A104EACB1ACF204D006BB05F /* SystemConfiguration.framework in Frameworks */,
+				A104EAC91ACF2045006BB05F /* StoreKit.framework in Frameworks */,
+				A104EAC71ACF203F006BB05F /* Security.framework in Frameworks */,
+				A104EAC51ACF2036006BB05F /* QuartzCore.framework in Frameworks */,
+				A104EAC31ACF202E006BB05F /* MobileCoreServices.framework in Frameworks */,
+				A104EAC11ACF2024006BB05F /* CoreLocation.framework in Frameworks */,
+				A104EABF1ACF201E006BB05F /* CoreGraphics.framework in Frameworks */,
+				A104EABD1ACF2017006BB05F /* CFNetwork.framework in Frameworks */,
+				A104EABB1ACF1FFE006BB05F /* AudioToolbox.framework in Frameworks */,
+				A104EAB91ACF1FAE006BB05F /* ParseFacebookUtils.framework in Frameworks */,
+				A104EAB81ACF1FAE006BB05F /* Parse.framework in Frameworks */,
+				CB22DBE900CB223C7C701C1C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +121,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74FBDD39E1F97C60134C05E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3935931488B27DFB57697AC5 /* Pods.debug.xcconfig */,
+				F48CD7FBB08EB0A80C3FE485 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A104EAB51ACF1F93006BB05F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A104EACE1ACF209D006BB05F /* libsqlite3.dylib */,
+				A104EACC1ACF2070006BB05F /* libz.dylib */,
+				A104EACA1ACF204D006BB05F /* SystemConfiguration.framework */,
+				A104EAC81ACF2045006BB05F /* StoreKit.framework */,
+				A104EAC61ACF203F006BB05F /* Security.framework */,
+				A104EAC41ACF2036006BB05F /* QuartzCore.framework */,
+				A104EAC21ACF202E006BB05F /* MobileCoreServices.framework */,
+				A104EAC01ACF2024006BB05F /* CoreLocation.framework */,
+				A104EABE1ACF201E006BB05F /* CoreGraphics.framework */,
+				A104EABC1ACF2017006BB05F /* CFNetwork.framework */,
+				A104EABA1ACF1FFE006BB05F /* AudioToolbox.framework */,
+				A104EAB61ACF1FAE006BB05F /* Parse.framework */,
+				A104EAB71ACF1FAE006BB05F /* ParseFacebookUtils.framework */,
+				34FE528A998D12941BF743CB /* libPods.a */,
+			);
+			name = Frameworks;
+			path = jobFriends;
+			sourceTree = "<group>";
+		};
 		A150058A1AC9FC4D0017CCE2 = {
 			isa = PBXGroup;
 			children = (
 				A15005951AC9FC4D0017CCE2 /* jobFriends */,
+				A104EAB51ACF1F93006BB05F /* Frameworks */,
 				A15005AE1AC9FC4D0017CCE2 /* jobFriendsTests */,
 				A15005941AC9FC4D0017CCE2 /* Products */,
+				74FBDD39E1F97C60134C05E6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,9 +175,10 @@
 		A15005951AC9FC4D0017CCE2 /* jobFriends */ = {
 			isa = PBXGroup;
 			children = (
+				A15005981AC9FC4D0017CCE2 /* AppDelegate.swift */,
+				A1BB5C531AE85C4D004EC09A /* Data */,
 				A15005BB1AC9FCDF0017CCE2 /* Views */,
 				A15005C01ACB29620017CCE2 /* ViewControllers */,
-				A15005981AC9FC4D0017CCE2 /* AppDelegate.swift */,
 				A150059F1AC9FC4D0017CCE2 /* Main.storyboard */,
 				A15005A21AC9FC4D0017CCE2 /* Images.xcassets */,
 				A15005A41AC9FC4D0017CCE2 /* LaunchScreen.xib */,
@@ -101,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				A15005971AC9FC4D0017CCE2 /* Info.plist */,
+				A104EAD01ACF219C006BB05F /* Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -127,6 +219,7 @@
 			children = (
 				A15005BC1AC9FF8C0017CCE2 /* CardView.swift */,
 				A15005BE1ACA15030017CCE2 /* SwipeView.swift */,
+				A1564ACA1B0BCF54001E6E54 /* UserCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -135,9 +228,21 @@
 			isa = PBXGroup;
 			children = (
 				A150059D1AC9FC4D0017CCE2 /* ViewController.swift */,
+				A1461FA01ADA954700AE240C /* LoginViewController.swift */,
 				A15005C11ACB29950017CCE2 /* CardsViewController.swift */,
+				A1837AD31AE98DAD007BA1BE /* ProfileViewController.swift */,
+				A1564AC81B0BCED1001E6E54 /* MatchesTableViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A1BB5C531AE85C4D004EC09A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A1BB5C541AE85C76004EC09A /* User.swift */,
+				A1564ACC1B0CE0DB001E6E54 /* Match.swift */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A15005B51AC9FC4D0017CCE2 /* Build configuration list for PBXNativeTarget "jobFriends" */;
 			buildPhases = (
+				90179F0DA98D9EAF8F561D03 /* Check Pods Manifest.lock */,
 				A150058F1AC9FC4D0017CCE2 /* Sources */,
 				A15005901AC9FC4D0017CCE2 /* Frameworks */,
 				A15005911AC9FC4D0017CCE2 /* Resources */,
+				56DEB3090CE334DEA18ED447 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,17 +342,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56DEB3090CE334DEA18ED447 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90179F0DA98D9EAF8F561D03 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A150058F1AC9FC4D0017CCE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1461FA11ADA954700AE240C /* LoginViewController.swift in Sources */,
 				A150059E1AC9FC4D0017CCE2 /* ViewController.swift in Sources */,
 				A15005991AC9FC4D0017CCE2 /* AppDelegate.swift in Sources */,
 				A15005C21ACB29950017CCE2 /* CardsViewController.swift in Sources */,
+				A1564AC91B0BCED1001E6E54 /* MatchesTableViewController.swift in Sources */,
+				A1BB5C551AE85C76004EC09A /* User.swift in Sources */,
 				A15005BD1AC9FF8C0017CCE2 /* CardView.swift in Sources */,
+				A1837AD41AE98DAD007BA1BE /* ProfileViewController.swift in Sources */,
 				A15005BF1ACA15030017CCE2 /* SwipeView.swift in Sources */,
+				A1564ACB1B0BCF55001E6E54 /* UserCell.swift in Sources */,
 				A150059C1AC9FC4D0017CCE2 /* jobFriends.xcdatamodeld in Sources */,
+				A1564ACD1B0CE0DB001E6E54 /* Match.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,21 +514,33 @@
 		};
 		A15005B61AC9FC4D0017CCE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3935931488B27DFB57697AC5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/jobFriends",
+				);
 				INFOPLIST_FILE = jobFriends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "jobFriends/Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		A15005B71AC9FC4D0017CCE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48CD7FBB08EB0A80C3FE485 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/jobFriends",
+				);
 				INFOPLIST_FILE = jobFriends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "jobFriends/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -439,6 +597,7 @@
 				A15005B71AC9FC4D0017CCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A15005B81AC9FC4D0017CCE2 /* Build configuration list for PBXNativeTarget "jobFriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +606,7 @@
 				A15005BA1AC9FC4D0017CCE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
